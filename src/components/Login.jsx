@@ -76,7 +76,7 @@ export default function Login() {
         disabled={!emailRegex.test(email) || !passwordRegex.test(password) || !accepted}
         data-testid="submit-button"
       >
-        Gönder
+        Kayıt ol
       </button>
     </form>
   );
