@@ -42,7 +42,7 @@ export default function Login() {
       <div>
         <input
           type="email"
-          placeholder="Email"
+          placeholder="Geçerli bir email giriniz"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           data-testid="email-input"
@@ -52,7 +52,7 @@ export default function Login() {
       <div>
         <input
           type="password"
-          placeholder="Şifre"
+          placeholder="Güçlü bir şifre giriniz"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           data-testid="password-input"
